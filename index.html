@@ -1,0 +1,110 @@
+<html>
+  <head>
+    <title>Little Krishna App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body class="background_image">
+    <center>
+    <h3>Little Krishna App</h3>
+    <span id="status"></span> 
+    <button class="btn btn-warning btn-lg"
+		onclick="playSound()">Play Song</button>
+        
+        <button class="btn btn-default btn-lg"
+		onclick="playSound1()">Play Song</button>
+
+        <button class="btn btn-default btn-lg"
+		onclick="playSound2()">Play Song</button>
+
+        <button class="btn btn-info btn-lg"
+		onclick="playSound3()">Play Song</button>
+        <button class="btn btn-info btn-lg"
+		onclick="playSound4()">Play Song</button>
+
+        <button class="btn btn-danger btn-lg"
+		onclick="pauseSound()">Stop song</button>
+        
+  <br>
+  <br>
+    <br><br>
+    </center>
+    <center>
+      <section id="slider">
+        <h2>Movies of little Krishna</h2>
+        <div id="mc" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                      <iframe width="853" height="480" src="https://www.youtube.com/embed/67S2RDPqoOU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="carousel-content">
+                            <p>The Darling of Vrindavan</p>
+                        </div>
+                    </center>
+                </div>
+                   <div class="item">
+                    <center>
+                        <iframe width="853" height="480" src="https://www.youtube.com/embed/Q-qcB_OqKTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+                        <div class="carousel-content">
+                            <p>Manmohana</p>
+                        </div>
+                    </center>
+                </div>
+                 <div class="item">
+                    <center>
+                        <iframe width="853" height="480" src="https://www.youtube.com/embed/MzUEg7jExj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="carousel-content">
+                        <p>The Legendary Warrior </p>
+                        </div>
+                    </center>
+                </div>
+                  <div class="item">
+                    <center>
+                        <iframe width="853" height="480" src="https://www.youtube.com/embed/-QRR0d-opfs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="carousel-content">
+                            <p>Wondrous Feats</p>
+                        </div>
+                    </center>
+                </div>
+                  <div class="item">
+                    <center> <iframe width="853" height="480" src="https://www.youtube.com/embed/6-UKAJ6dO-U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="carousel-content">
+                            <p>The Terrible Storm</p>
+                        </div>
+                    </center>
+                </div>
+                
+                   <a class="left carousel-control" href="#mc" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#mc" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+            <ol class="carousel-indicators">
+                <li data-target="#mc" data-slide-to="0" class="active"></li>
+                <li data-target="#mc" data-slide-to="1"></li>
+                <li data-target="#mc" data-slide-to="2"></li>
+                <li data-target="#mc" data-slide-to="3"></li>
+                <li data-target="#mc" data-slide-to="4"></li>
+              
+                            </ol>
+        </div>
+    </section>
+
+</div>
+    </center>
+    <audio id="myAudio" src="Little Krishna.mp3"></audio>
+    <audio id="myMusic" src="Jai Kanhaiya Lal Ki - Star Bharat ! Tv Serial.mp3"></audio>
+    <audio id="mySong" src="Little Krishna (1).mp3"></audio>
+    <audio id="myClip" src="Makhan Chor Kanhaiya Song.mp3"></audio>
+    <audio id="myAudio2" src="Radha Krishna - Hindi Serial - Holi Song.mp3"></audio>
+<script src="main.js"></script>
+  </body>
+</html>

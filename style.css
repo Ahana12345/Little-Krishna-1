@@ -1,0 +1,19 @@
+.background_image{
+    background-image: url("https://vistapointe.net/images/little-krishna-4.jpg");
+    padding-top: 20px;
+}
+h3{
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: beige;
+}
+h2{
+    font-weight: bold;
+    color: beige;
+    text-decoration: underline;
+}
+p{
+    font-weight: bold;
+    color: black;
+    font-size: medium;
+}
